@@ -2,7 +2,7 @@ name: checklog
 
 on:
   schedule:
-  - cron: '*/03 * * * *' # runs every 15 min
+  - cron: '*/03 * * * *' # runs every 03 min
 
 jobs:
   build: 
