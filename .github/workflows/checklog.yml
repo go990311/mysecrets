@@ -1,4 +1,4 @@
-name: checklog.r
+name: checklog
 
 on:
   schedule:
