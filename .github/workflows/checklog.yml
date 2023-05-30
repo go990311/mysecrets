@@ -2,7 +2,7 @@ name: checklog
 
 on:
   schedule:
-  - cron: '*/60 * * * *' # runs every 60 min
+  - cron: '0 0 */4 * *'  # runs every 4 days at midnight
 
 jobs:
   build: 
